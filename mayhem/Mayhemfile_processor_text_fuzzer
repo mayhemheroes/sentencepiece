@@ -1,0 +1,6 @@
+project: sentencepiece
+target: processor_text_fuzzer
+cmds:
+  - cmd: /mayhem/processor_text_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/processor_text_fuzzer.dict

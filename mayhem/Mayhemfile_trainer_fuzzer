@@ -1,0 +1,6 @@
+project: sentencepiece
+target: trainer_fuzzer
+cmds:
+  - cmd: /mayhem/trainer_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/trainer_fuzzer.dict

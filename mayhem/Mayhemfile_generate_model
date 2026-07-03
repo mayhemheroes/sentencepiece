@@ -1,0 +1,5 @@
+project: sentencepiece
+target: generate_model
+cmds:
+  - cmd: /mayhem/generate_model
+    libfuzzer: true

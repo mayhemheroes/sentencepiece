@@ -1,0 +1,6 @@
+project: sentencepiece
+target: model_load_fuzzer
+cmds:
+  - cmd: /mayhem/model_load_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/model_load_fuzzer.dict

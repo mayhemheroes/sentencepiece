@@ -1,0 +1,6 @@
+project: sentencepiece
+target: sample_encode_fuzzer
+cmds:
+  - cmd: /mayhem/sample_encode_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/sample_encode_fuzzer.dict
